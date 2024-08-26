@@ -1,0 +1,128 @@
+.payment-method {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .container {
+    width: 60vh;
+    height: 60vh;
+
+    border-radius: 1vh;
+    background: rgba(15, 15, 15, 0.96);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .banner {
+      margin-top: 3.2vh;
+
+      width: 100%;
+      height: 5.5vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: linear-gradient(90deg, #0084ff 0%, #004f99 100%);
+
+      color: #fff;
+
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 3vh;
+    }
+
+    .description {
+      margin-top: 1.5vh;
+
+      color: #fff;
+
+      font-family: "Akrobat", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2.3vh;
+
+      span {
+        color: #0183fe;
+      }
+    }
+
+    .options {
+      margin-top: 4.2vh;
+      display: flex;
+      gap: 2.9vh;
+
+      .option {
+        width: 25vh;
+        height: 32.5vh;
+
+        border-radius: 0.75vh;
+        border: 0.4vh solid #0084ff;
+        background: #000;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+
+        transition: all 0.5s ease;
+
+        img {
+          width: 15vh;
+          height: 15vh;
+        }
+
+        .label {
+          color: #fff;
+
+          font-family: "Akrobat", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 4.1vh;
+        }
+
+        &:hover {
+          cursor: pointer;
+
+          background: #0084ff;
+          transform: scale(1.01);
+        }
+      }
+    }
+
+    .exit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      margin: 2vh;
+      width: 4.5vh;
+      height: 4.5vh;
+
+      border-radius: 0.5vh;
+      border: 0.3vh solid #0084ff;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: #fff;
+
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 2.2vh;
+
+      transition: all 0.2s ease;
+
+      &:hover {
+        cursor: pointer;
+
+        background: #0084ff;
+      }
+    }
+  }
+}
