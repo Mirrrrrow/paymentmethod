@@ -56,7 +56,9 @@ const App: React.FC = () => {
     }
   }, [escapePressed]);
 
-  fetchNui("init", {});
+  useEffect(() => {
+    fetchNui("init", {});
+  }, []);
 
   return (
     <div className="payment-method">
