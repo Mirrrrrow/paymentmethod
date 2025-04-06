@@ -3,7 +3,7 @@
 `PaymentMethod` is a FiveM resource that allows players to select a payment method for each purchase. This script provides an export function, `requestPaymentMethod`, which enables developers to easily integrate customizable payment options into their FiveM servers.
 
 ## Credits
-Web Template: https://github.com/ardelan869/fivem-frontend-boilerplates
+Web Template: https://github.com/ardelan869/fivem-frontend-boilerplates <br/>
 web/providers/LocaleProvider.tsx: https://github.com/overextended/ox_lib/blob/master/web/src/providers/LocaleProvider.tsx, licensed under GNU Lesser General Public License v3.0.
 
 ## Preview
