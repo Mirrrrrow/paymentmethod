@@ -1,4 +1,6 @@
-.payment-method {
+$primaryColor: #0084ff;
+$secondaryColor: #004f99;
+.paymentMethod {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,14 +26,14 @@
       justify-content: center;
       align-items: center;
 
-      background: linear-gradient(90deg, #0084ff 0%, #004f99 100%);
+      background: linear-gradient(90deg, $primaryColor 0%,$secondaryColor 100%);
 
       color: #fff;
 
       font-family: "Poppins", sans-serif;
       font-weight: 800;
       font-style: normal;
-      font-size: 3vh;
+      font-size: 2.8vh;
     }
 
     .description {
@@ -45,7 +47,7 @@
       font-size: 2.3vh;
 
       span {
-        color: #0183fe;
+        color: $primaryColor;
       }
     }
 
@@ -59,35 +61,35 @@
         height: 32.5vh;
 
         border-radius: 0.75vh;
-        border: 0.4vh solid #0084ff;
+        border: 0.4vh solid $primaryColor;
         background: #000;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1vh;
+        gap: 5vh;
 
         transition: all 0.5s ease;
 
         img {
-          width: 15vh;
-          height: 15vh;
+          width: 11vh;
+          height: 11vh;
         }
 
         .label {
           color: #fff;
 
           font-family: "Akrobat", sans-serif;
-          font-weight: 700;
+          font-weight: 600;
           font-style: normal;
-          font-size: 4.1vh;
+          font-size: 3.5vh;
         }
 
         &:hover {
           cursor: pointer;
 
-          background: #0084ff;
+          background: $primaryColor;
           transform: scale(1.01);
         }
       }
@@ -103,7 +105,7 @@
       height: 4.5vh;
 
       border-radius: 0.5vh;
-      border: 0.3vh solid #0084ff;
+      border: 0.3vh solid $primaryColor;
 
       display: flex;
       justify-content: center;
@@ -114,14 +116,13 @@
       font-family: "Poppins", sans-serif;
       font-weight: 800;
       font-style: normal;
-      font-size: 2.2vh;
+      font-size: 2vh;
 
       transition: all 0.2s ease;
 
       &:hover {
         cursor: pointer;
-
-        background: #0084ff;
+        background: $primaryColor;
       }
     }
   }

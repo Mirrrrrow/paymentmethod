@@ -1,0 +1,58 @@
+@import url('transitions.scss');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/akrobat?styles=28196");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box !important;
+  -webkit-user-drag: none;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  line-height: 1;
+}
+
+a,
+input,
+button,
+textarea {
+  all: unset;
+}
+
+[contenteditable] {
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+::-webkit-scrollbar,
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  display: none;
+}

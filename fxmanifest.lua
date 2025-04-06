@@ -5,14 +5,15 @@ use_experimental_fxv2_oal 'yes'
 
 author 'Mirow'
 description 'Choose a payment method!'
-version '1.0.0'
+version '2.0.0'
 
 client_scripts {
     'config.lua',
-    'client.lua'
+    'client.lua',
+    'example.lua'
 }
 
-ui_page 'web/build/index.html'
+ui_page 'web/dist/index.html'
 files {
-    'web/build/**'
+    'web/dist/**'
 }

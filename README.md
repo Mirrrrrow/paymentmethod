@@ -3,6 +3,7 @@
 `PaymentMethod` is a FiveM resource that allows players to select a payment method for each purchase. This script provides an export function, `requestPaymentMethod`, which enables developers to easily integrate customizable payment options into their FiveM servers.
 
 ## Preview
+
 ![image](https://github.com/user-attachments/assets/df6db322-3244-467f-bf51-abe84a12069c)
 
 ## Features
@@ -15,7 +16,7 @@
 
 1. **Download the resource:**
 
-- Download the newest version from [GitHub](https://github.com/Mirrrrrow/paymentmethod).
+- Download the newest release from [GitHub](https://github.com/Mirrrrrow/paymentmethod/releases).
 
 2. **Add to your FiveM server:**
 
