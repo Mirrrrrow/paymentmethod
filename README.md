@@ -8,7 +8,8 @@ web/providers/LocaleProvider.tsx: https://github.com/overextended/ox_lib/blob/ma
 
 ## Preview
 
-![image](https://github.com/user-attachments/assets/df6db322-3244-467f-bf51-abe84a12069c)
+![{67C06A2E-78DE-47EC-87D2-3548B876762E}](https://github.com/user-attachments/assets/c01d9495-74d5-48ea-aab6-993a54e49b25)
+
 
 ## Features
 
