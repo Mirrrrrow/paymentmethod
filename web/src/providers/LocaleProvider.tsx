@@ -1,3 +1,8 @@
+/*
+  Credits to https://github.com/overextended/ox_lib/blob/master/web/src/providers/LocaleProvider.tsx
+  Licensed under GNU Lesser General Public License v3.0.
+*/
+
 import { debugData } from '@/lib';
 import { useNuiEvent } from '@/lib/hooks';
 import { Context, createContext, useContext, useState } from 'react';
